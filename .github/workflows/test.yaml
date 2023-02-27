@@ -7,7 +7,7 @@ on:
 
 jobs:
   test-code:
-    runs-on: ubtuntu-22.04
+    runs-on: ubuntu-22.04
     steps:
       - name: checkout code
         uses: actions/checkout@v3
